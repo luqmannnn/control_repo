@@ -6,7 +6,7 @@ node default {
   }
 }
 
-node 'master_puppet.vm' {
+node 'master.puppet.vm' {
   include role::master_server
 }
 
