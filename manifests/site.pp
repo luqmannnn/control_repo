@@ -4,8 +4,4 @@ node default {
     content => 'Puppet Configuration file',
     owner => 'root',
   }
-  
-  file {'/root/README':
-    owner => root,
-  }
 }
