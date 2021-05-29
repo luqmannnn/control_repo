@@ -1,7 +1,6 @@
 node default {
-  file {'/root/README':
-    ensure => file,
-    content => 'Puppet Configuration file',
-    owner => 'root',
-  }
+}
+
+node 'maser_puppet.vm' {
+  include role::master_server
 }
